@@ -51,4 +51,3 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', github: 'plataformatec/devise'
-gem 'rubocop', '~> 0.48.1', require: false
