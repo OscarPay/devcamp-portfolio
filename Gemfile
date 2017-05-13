@@ -54,3 +54,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', github: 'plataformatec/devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails'
+
+gem 'copyright_details_view', git: 'https://github.com/OscarPay/copyright_details_view'

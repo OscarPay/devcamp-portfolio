@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/OscarPay/copyright_details_view
+  revision: c25ddfeece5815ddfedaf18c9b2b8ac5eb2fbc0c
+  specs:
+    copyright_details_view (0.1.0)
+
+GIT
   remote: https://github.com/plataformatec/devise.git
   revision: a62faa2c8258ba1c35fe84e147f42c35eccccb8a
   specs:
@@ -193,6 +199,7 @@ DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
+  copyright_details_view!
   devise!
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)

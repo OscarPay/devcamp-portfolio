@@ -16,4 +16,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: 'source_greeting')
     end
   end
+
+  def copyright_generator
+    CopyrightDetailsView::Renderer.copyright 'Oscar Pérez', 'All rights reserved'
+  end
 end
