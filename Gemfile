@@ -57,3 +57,5 @@ gem 'jquery-rails'
 
 gem 'copyright_details_view', git: 'https://github.com/OscarPay/copyright_details_view'
 gem 'petergate', '~> 1.7'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
