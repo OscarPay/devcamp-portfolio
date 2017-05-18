@@ -11,6 +11,9 @@ class Portfolio < ApplicationRecord
 
   after_initialize :set_defaults
 
+  mount_uploader :thumb_image, PortfolioUploader
+  mount_uploader :main_image, PortfolioUploader
+
   def self.by_position
     order('position ASC')
   end
